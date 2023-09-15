@@ -14,3 +14,5 @@ I took a lot of design inspiration from various sites, but mostly from one. I'll
 I have a few thoughts to publish, starting with a post about using commits as a productivity metric, but hopefully I can just start writign here again about anything dealing with programming. I've been interested more and more in gamedev so maybe I'll chroicle some learnings about that here as well.
 
 That's it for my introductory post. I'll add a comment section in later when I remember how that works again.
+
+\[Update\] I figured out comments.
