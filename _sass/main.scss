@@ -64,6 +64,24 @@ a:visited.current {
     padding: 0 1rem;
 }
 
+.hack hr {
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    border: 0;
+    margin: 20px 0;
+}
+
+.hack hr::after {
+    content: "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 20px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
 .svg-icon {
     width: 1.25em;
     height: 1.25em;
