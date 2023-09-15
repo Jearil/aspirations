@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Latest Posts
+title: Aspirations of a Software Developer
 ---
 # {{ page.title }}
 
 {% if site.posts.size > 0 %}
+## Latest Posts
 {% for post in site.posts %}
 
 {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
