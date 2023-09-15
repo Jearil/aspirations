@@ -5,7 +5,7 @@ categories: blog
 author: Colin
 comments: true
 ---
-I used to have a blog about 15 years ago on [Wordpress](developeraspirations.wordpress.com). I'm not a huge fan of Wordpress, though it did get the job done. I later moved to [Ghost](https://ghost.org/) and hosted myself on AWS. However, that was difficult to maintain and the upgrade process and DB setup leaved a bit to be desired.
+I used to have a blog about 15 years ago on [Wordpress](http://developeraspirations.wordpress.com). I'm not a huge fan of Wordpress, though it did get the job done. I later moved to [Ghost](https://ghost.org/) and hosted myself on AWS. However, that was difficult to maintain and the upgrade process and DB setup leaved a bit to be desired.
 
 Recently, I thought about blogging again. And thinking about it, why should a blog even have a database? It seems like overkill for what is basically serving up static pages right? So I could just make static pages and add in links. Though that's a little tedious, it's also super cheap to host static content. To avoid the tedium, I've decided to rebuild this site in [Jekyll](https://jekyllrb.com/) and it's been an ok learning experience. I don't have automatic publishing set on commits yet, but it will happen at some point I'm sure.
 
