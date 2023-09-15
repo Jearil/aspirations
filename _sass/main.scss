@@ -17,6 +17,7 @@
 }
 
 $link-color: #FFA8CE;
+$current-page-color: #f08553;
 
 body {
     font-size: 1rem;
@@ -42,6 +43,12 @@ a:visited {
 ::selection {
     background: #d3869b;
 }
+
+.current,
+a:visited.current {
+    color: $current-page-color;
+}
+
 
 .container {
     max-width: 60rem;

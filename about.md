@@ -2,4 +2,4 @@
 layout: default
 title: About
 ---
-This page tells you about me.
+A blog by a guy working in tech about things he ponders.
