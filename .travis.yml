@@ -18,10 +18,10 @@ notifications:
 
 
 before_install:
-  #install rvm 2.2
-  - rvm install 2.2
-  #use rvm 2.2
-  - rvm use 2.2
+  #install rvm 2.6
+  - rvm install 2.6
+  #use rvm 2.6
+  - rvm use 2.6
   #set home varaibles
   - . $HOME/.nvm/nvm.sh && nvm install 6.1 && nvm use 6.1  
   #install gems through bundler
