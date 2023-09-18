@@ -8,7 +8,7 @@ node_js:
 #choose branch on commit of which this script should excecute
 branches:
   only:
-    - master
+    - main
 
 #set notifications frequency
 notifications:
