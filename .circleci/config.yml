@@ -1,0 +1,49 @@
+version: 2.1
+
+workflows:
+  build:
+    jobs:
+      - build
+
+jobs:
+  build:
+
+    working_directory: ~/repo
+
+    # docker hub images https://hub.docker.com/
+    docker:
+      - image: cimg/ruby:3.1.4-node
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+        name: Ruby dependencies
+        command: bundle check || bundle install
+      - save_cache:
+        key: rubygems-v1{{ checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
+
+      - run:
+          name: Node dependencies
+          command: npm install firebase-tools --unsafe-perm
+
+      - save_cache:
+          # path for directories is relative
+          # to the working_directory of your job
+          paths:
+            - vendor/bundle
+            - node_modules
+          key: v00-deps
+
+      - run:
+          name: Build
+          command: bundle exec jekyll build --verbose
