@@ -22,14 +22,17 @@ jobs:
           name: Ruby dependencies
           command: bundle check || bundle install
 
-      - run:
-          name: Node dependencies
-          command: npm install -g firebase-tools --unsafe-perm
 
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
       
+      - run:
+          name: Firebase Setup
+          command: npm install firebase-tools --unsafe-perm
+
+      - run: "alias firebase="`npm config get prefix`/bin/firebase"
+
       - run:
           name: Deploy Site
           command: firebase deploy --token "$FIREBASE_API_TOKEN"
