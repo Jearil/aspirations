@@ -13,20 +13,18 @@ jobs:
     # docker hub images https://hub.docker.com/
     docker:
       - image: cimg/ruby:3.1.4-node
-    environment:
-      BUNDLE_PATH: ~/repo/vendor/bundle
 
     steps:
       - checkout
 
-      - run:
-        name: Ruby dependencies
-        command: bundle check || bundle install
+      #- run:
+      #  name: Ruby dependencies
+      #  command: bundle check || bundle install
 
       - run:
           name: Node dependencies
           command: npm install firebase-tools --unsafe-perm
 
-      - run:
-          name: Build
-          command: bundle exec jekyll build --verbose
+      #- run:
+      #    name: Build
+      #    command: bundle exec jekyll build --verbose
