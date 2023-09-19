@@ -29,6 +29,6 @@ jobs:
           name: Build
           command: bundle exec jekyll build --verbose
       
-      -run:
+      - run:
           name: Deploy Site
           command: firebase deploy --token "$FIREBASE_API_TOKEN"
