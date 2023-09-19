@@ -1,7 +1,7 @@
 ---
 title: "Commits as a Productivity Metric is Bad"
 date: 2023-09-15 14:00:00 -0700
-categories: management productivity perf
+categories: dev management productivity perf
 author: Colin
 comments: true
 ---

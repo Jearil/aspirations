@@ -13,12 +13,15 @@
 }
 
 .gruvbox-dark pre {
-    background-color: #1d2021;
     border: none
 }
 
 .gruvbox-dark pre code {
     color: #689d6a
+}
+
+.gruvbox-dark code {
+    color: #e6db74;
 }
 
 .gruvbox-dark .progress-bar-filled:after,

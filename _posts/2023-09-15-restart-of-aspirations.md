@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Developer Aspirations"
 date: 2023-09-15 11:00:00 -0700
-categories: blog
+categories: dev blog
 author: Colin
 comments: true
 ---

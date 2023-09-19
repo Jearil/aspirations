@@ -134,7 +134,15 @@ a:visited.current {
     top: 0;
     left: 0;
     line-height: 20px;
-  }
+}
+
+.hack pre {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.125em;
+}
 
 .svg-icon {
     width: 1.25em;

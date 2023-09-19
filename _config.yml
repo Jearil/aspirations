@@ -35,6 +35,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Code Highlighting
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rogue
+
 # Collections
 collections:
   authors:
