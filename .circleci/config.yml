@@ -31,8 +31,6 @@ jobs:
           name: Firebase Setup
           command: npm install firebase-tools --unsafe-perm
 
-      - run: "alias firebase="`npm config get prefix`/bin/firebase"
-
       - run:
           name: Deploy Site
-          command: firebase deploy --token "$FIREBASE_API_TOKEN"
+          command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_API_TOKEN"
