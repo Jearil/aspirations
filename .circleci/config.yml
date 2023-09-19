@@ -18,13 +18,13 @@ jobs:
       - checkout
 
       - run:
-        name: Ruby dependencies
-        command: bundle install
+          name: Ruby dependencies
+          command: bundle check || bundle install
 
       - run:
           name: Node dependencies
           command: npm install firebase-tools --unsafe-perm
 
-      #- run:
-      #    name: Build
-      #    command: bundle exec jekyll build --verbose
+      - run:
+          name: Build
+          command: bundle exec jekyll build --verbose
