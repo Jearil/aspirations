@@ -17,9 +17,9 @@ jobs:
     steps:
       - checkout
 
-      #- run:
-      #  name: Ruby dependencies
-      #  command: bundle check || bundle install
+      - run:
+        name: Ruby dependencies
+        command: bundle install
 
       - run:
           name: Node dependencies
