@@ -13,7 +13,10 @@
     <link rel="manifest" href="/site.webmanifest">
     {% feed_meta %}
     {% seo %}
-</head>
+    {%- if jekyll.environment == "production" -%}
+        <script type="text/javascript" src="/assets/js/firebase.js"></script>
+    {% endif %}
+    </head>
 
 <body class="gruvbox-dark hack">
     <div class="container">
