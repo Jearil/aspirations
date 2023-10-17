@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/assets/css/gruvbox-dark.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/monokai.css">
+    <link rel="stylesheet" href="/assets/css/ascii-box.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -14,16 +15,16 @@
     {% feed_meta %}
     {% seo %}
     {%- if jekyll.environment == "production" -%}
-        <script type="text/javascript" src="/assets/js/firebase.js"></script>
+    <script type="text/javascript" src="/assets/js/firebase.js"></script>
     {% endif %}
-    </head>
+</head>
 
 <body class="gruvbox-dark hack">
     <div class="container">
-    {% include navigation.html %}
-    {{ content }}
+        {% include navigation.html %}
+        {{ content }}
 
-    {% include footer.html %}
+        {% include footer.html %}
     </div>
 </body>
 

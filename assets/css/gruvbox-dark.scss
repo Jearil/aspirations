@@ -1,15 +1,37 @@
+---
+---
+
+$background: #1d2021;
+$mainText: #f9f5d7;
+$header1: #37AEC2;
+$header2: #A1C854;
+$header3: #F19846;
+$header4: #CDCD23;
+
+$codeBlock: #689d6a;
+$code: #e6db74;
+
 .gruvbox-dark {
-    background-color: #1d2021;
-    color: #f9f5d7
+    background-color: $background;
+    color: $mainText;
 }
 
-.gruvbox-dark h1,
-.gruvbox-dark h2,
-.gruvbox-dark h3,
+.gruvbox-dark h1 {
+    color: $header1;
+}
+
+.gruvbox-dark h2 {
+    color: $header2;
+}
+
+.gruvbox-dark h3 {
+    color: $header3;
+}
+
 .gruvbox-dark h4,
 .gruvbox-dark h5,
 .gruvbox-dark h6 {
-    color: #CDCD23
+    color: $header1;
 }
 
 .gruvbox-dark pre {
@@ -17,11 +39,11 @@
 }
 
 .gruvbox-dark pre code {
-    color: #689d6a
+    color: $codeBlock;
 }
 
 .gruvbox-dark code {
-    color: #e6db74;
+    color: $code;
 }
 
 .gruvbox-dark .progress-bar-filled:after,
@@ -133,84 +155,4 @@
 .gruvbox-dark .menu .menu-item:hover {
     color: #fdf4c1;
     border-color: #fdf4c1
-}
-
-@media (prefers-color-scheme: light) {
-    .gruvbox-dark {
-        background-color: #f9f5d7;
-        color: #1d2021;
-    }
-
-    .gruvbox-dark h1,
-    .gruvbox-dark h2,
-    .gruvbox-dark h3,
-    .gruvbox-dark h4,
-    .gruvbox-dark h5,
-    .gruvbox-dark h6 {
-        color: #4F4F0D
-    }
-
-    .gruvbox-dark pre {
-        background-color: #f9f5d7;
-        padding: 0;
-        border: none;
-    }
-
-
-    .gruvbox-dark table {
-        color: #1d2021;
-    }
-
-    .gruvbox-dark .form-control,
-    .gruvbox-dark .form-group label {
-        color: #1d2021;
-        border-color: #98971a
-    }
-
-    .gruvbox-dark .form-group.form-textarea label:after {
-        background-color: #3c3836;
-    }
-
-    .gruvbox-dark .form-control:focus {
-        border-color: #665c54;
-        color: #665c54;
-    }
-
-    .gruvbox-dark textarea.form-control {
-        color: #282828;
-    }
-
-    .gruvbox-dark .card .card-header {
-        background-color: transparent;
-        color: #282828;
-        border-bottom: 1px solid #98971a
-    }
-
-    .gruvbox-dark .btn.btn-ghost.btn-default:focus,
-    .gruvbox-dark .btn.btn-ghost.btn-default:hover {
-        z-index: 1;
-        border-color: #3c3836;
-        color: #3c3836;
-    }
-
-    .gruvbox-dark .menu .menu-item {
-        color: #282828;
-        border-color: #98971a
-    }
-
-    .gruvbox-dark .menu .menu-item.active,
-    .gruvbox-dark .menu .menu-item:hover {
-        color: #282828;
-        border-color: #282828;
-    }
-
-    .gruvbox-dark a:visited {
-        color: #4D4442;
-        border-color: #4D4442;
-    }
-
-    .gruvbox-dark a:visited:hover {
-        color: #3c3836;
-        background-color: #bdae93;
-    }
 }
