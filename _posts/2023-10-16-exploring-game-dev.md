@@ -5,6 +5,7 @@ categories: dev
 tags: gamedev
 author: Colin
 comments: true
+image: "/assets/images/preview/exploring-game-dev.png"
 ---
 
 I've been programming for almost 2 decades now. The first half of that work was server-side Java/Scala work, and the second half was Android work. I've done a lot of work on Android cameras and worked on many large projects for major companies that you almost certainly have used, which is a great source of pride for me. However, the work isn't personally fulfilling as it's always doing something for someone else that isn't what I'd generally want to make myself.
