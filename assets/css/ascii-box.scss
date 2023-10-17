@@ -49,3 +49,7 @@ div.ascii-box:after {
     /* This just caps off the bottom */
     content: '----------------------------------------------------------------------------------------------------';
 }
+
+div.ascii-box p {
+    margin: 0px;
+}

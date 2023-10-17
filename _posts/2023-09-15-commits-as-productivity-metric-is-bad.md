@@ -17,10 +17,9 @@ One of the issues with using the number of commits as a productivity metric is t
 
 It can be worse when the metric is known by developers. They start hoarding simple changes.
 
-<div class="ascii-box" id="box1">
-<i>"Oh hey, I can get this done real fast to unblock me, mind if I take that bug from you?"</i>
-
-<i>"No, I can get it in soon, don't take it."</i>
+<div class="ascii-box" id="box1" markdown="1">
+*"Oh hey, I can get this done real fast to unblock me, mind if I take that bug from you?"*
+*"No, I can get it in soon, don't take it."*
 </div>
 
  Suddenly there's competition for changes rather than collaboration. Projects can be slowed down waiting for changes from people who have claimed them. Resentment and hostility can arise if someone "steals" another's bugs. When we move from collaboration on our projects to competition, the projects suffer as we have incentive for our peers to "lose".
