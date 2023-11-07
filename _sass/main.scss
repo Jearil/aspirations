@@ -69,7 +69,6 @@ a:visited.current {
 .hack footer,
 .hack header,
 .hack li,
-.hack ol,
 .hack p,
 .hack section,
 .hack ul {
@@ -120,6 +119,10 @@ a:visited.current {
     content: "-";
 }
 
+.hack ol > li {
+    display: list-item;
+}
+
 .hack blockquote {
     position: relative;
     padding-left: 17px;
@@ -150,4 +153,11 @@ a:visited.current {
     display: inline-block;
     fill: currentColor;
     vertical-align: middle;
+}
+
+.right-text-container img {
+    margin-right: 20px;
+    height: auto;
+    max-width: 100%;
+    float: left;
 }
