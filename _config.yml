@@ -29,7 +29,7 @@ twitter_username: Jearil
 github_username:  Jearil
 
 #Always use UTC and just add our offset
-timezone: UTC
+timezone: America/Los_Angeles
 
 # Build settings
 # theme: minima
