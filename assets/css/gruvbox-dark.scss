@@ -11,6 +11,8 @@ $header4: #CDCD23;
 $codeBlock: #689d6a;
 $code: #e6db74;
 
+$strong: #F19846;
+
 .gruvbox-dark {
     background-color: $background;
     color: $mainText;
@@ -49,7 +51,7 @@ $code: #e6db74;
 .gruvbox-dark .progress-bar-filled:after,
 .gruvbox-dark .progress-bar-filled:before,
 .gruvbox-dark strong {
-    color: #98971a
+    color: $strong;
 }
 
 .gruvbox-dark .progress-bar-filled {
