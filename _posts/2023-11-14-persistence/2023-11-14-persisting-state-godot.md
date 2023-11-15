@@ -1,6 +1,6 @@
 ---
 title: "Persisting State in Godot"
-date: 2023-11-14 16:55:00 -800
+date: 2023-11-14 17:00:00 -800
 categories: dev
 tags: gamedev
 author: Colin
