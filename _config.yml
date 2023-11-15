@@ -28,6 +28,9 @@ url: "https://developeraspirations.com" # the base hostname & protocol for your 
 twitter_username: Jearil
 github_username:  Jearil
 
+#Always use UTC and just add our offset
+timezone: UTC
+
 # Build settings
 # theme: minima
 plugins:
