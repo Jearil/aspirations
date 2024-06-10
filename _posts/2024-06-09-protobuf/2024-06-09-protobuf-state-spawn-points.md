@@ -20,7 +20,7 @@ With that in mind, the last time I posted was about [persisting game state]({% p
 
 The last time I asked "What is Persistence?" and talked about saving and loading game state. I wanted to back up on this concept though, and think more about the data itself. What is data and how do we get, use, and store data? I'm thinking more of how on a low level I'll want to store any data that any object will use at runtime in the app itself. And there's a few ways of doing that really.
 
-The first thought is that data generally would go with the `Node` or system that uses that data. If we have a Character node, it would have different properties and could store that data as variables that are part of that node. So if your character has a name, you could make a name member variable. The node already has some data that I'll want to store already like a Character's X and Y coordinates in the scene you're currently in, so the node makes sense in a way. 
+The first thought is that data generally would go with the `Node` or system that uses that data. If we have a Character node, it would have different properties and could store that data as variables that are part of that node. So if your character has a name, you could make a name member variable. The node already has some data that I'll want to store already like a Character's X and Y coordinates in the scene you're currently in, so the node makes sense in a way.
 
 {% highlight cs %}
 public partial class Character : CharacterBody2D
