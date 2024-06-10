@@ -35,4 +35,6 @@ jobs:
 
       - run:
           name: Deploy Site
-          command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_API_TOKEN"
+          command: |
+            echo $SA_KEY > credentials.json
+            GOOGLE_APPLICATION_CREDENTIALS=credentials.json ./node_modules/.bin/firebase deploy
