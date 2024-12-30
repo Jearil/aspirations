@@ -12,7 +12,7 @@ jobs:
 
     # docker hub images https://hub.docker.com/
     docker:
-      - image: cimg/ruby:3.1.4-node
+      - image: cimg/ruby:3.3.6-node
         environment:
           TZ: "America/Los_Angeles"
     resource_class: small
