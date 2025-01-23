@@ -15,6 +15,7 @@ jobs:
       - image: cimg/ruby:3.3.6-node
         environment:
           TZ: "America/Los_Angeles"
+          JEKYLL_ENV: production
     resource_class: small
 
     steps:
