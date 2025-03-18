@@ -3,6 +3,7 @@ short_name: Colin
 name: Colin Miller
 email: jearil@gmail.com
 twitter: Jearil
+bluesky: jearil.bsky.social
 pronouns: He/Him
 mastadon: https://fosstodon.org/@Jearil
 ---
