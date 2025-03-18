@@ -7,7 +7,7 @@ author: Colin
 comments: true
 image: /assets/images/preview/bridges.png
 ---
-In my [last post]({% post_url 2023-10-27-godot/2023-10-27-learning-godot %}) I mentioned the next challenge I wanted to tackle, and that was Bridges. I took some time to write up a solution for it and the idea that I had ended up working out well. I wanted to write up a post about what I did and how I did it because I couldn't really find any good solutions online. The only ones that I found were YouTube videos where the code was locked behind a patreon donation, and I think that's silly. So, here's my solution including the code that I created for it in literally an evening. This post might even take longer to make than the solution did.
+In my [last post]({% post_url 2023/2023-10-27-godot/2023-10-27-learning-godot %}) I mentioned the next challenge I wanted to tackle, and that was Bridges. I took some time to write up a solution for it and the idea that I had ended up working out well. I wanted to write up a post about what I did and how I did it because I couldn't really find any good solutions online. The only ones that I found were YouTube videos where the code was locked behind a patreon donation, and I think that's silly. So, here's my solution including the code that I created for it in literally an evening. This post might even take longer to make than the solution did.
 
 ## How Characters Should Work with Bridges
 

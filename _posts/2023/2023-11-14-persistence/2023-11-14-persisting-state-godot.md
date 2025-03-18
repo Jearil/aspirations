@@ -7,7 +7,7 @@ author: Colin
 comments: true
 image: /dev/2023/11/14/title.png
 ---
-I haven't settled on my finished game idea, but I've been busy exploring systems that I want to create in the meantime. While I still want to clean up my [bridge]({% post_url 2023-11-01-bridges/2023-11-06-making-bridges %}) system, that success has propelled me into wanting to design some other systems that I can generically apply to any game that I want to make. Among those systems are **Dialog**, **Interactions**, **Inventory**, and **Persistence**. That last system is the one I would like to talk about today.
+I haven't settled on my finished game idea, but I've been busy exploring systems that I want to create in the meantime. While I still want to clean up my [bridge]({% post_url 2023/2023-11-01-bridges/2023-11-06-making-bridges %}) system, that success has propelled me into wanting to design some other systems that I can generically apply to any game that I want to make. Among those systems are **Dialog**, **Interactions**, **Inventory**, and **Persistence**. That last system is the one I would like to talk about today.
 
 ## What is persistence?
 

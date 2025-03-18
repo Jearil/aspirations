@@ -14,7 +14,7 @@ So not a lot.
 
 However, I did do 2 major things faily recently. To start, I spent some time actually coming up with the main story of the game. It's mostly broad right now but it does deal with a Glutenmancer and bread products and is a quest of sorts. I'm leaning a lot towards some sort of RPG featuring this glutenmancer. I don't know how much I want to really talk about the story however as it would give away a bunch of the main game and I think at this point I still want this to mainly be a developement blog about the process of building my game. Secondly, I changed how I'm thinking about persistence.
 
-With that in mind, the last time I posted was about [persisting game state]({% post_url 2023-11-14-persistence/2023-11-14-persisting-state-godot %}). That system was very generic and might have been useful for saving state of generic nodes, but it was getting hard to work with. It also felt just more difficult to use than I really wanted. Ideally, I want to not really have to think so much about game saving or loading, just dealing with data. So I wanted to rethink the whole system.
+With that in mind, the last time I posted was about [persisting game state]({% post_url 2023/2023-11-14-persistence/2023-11-14-persisting-state-godot %}). That system was very generic and might have been useful for saving state of generic nodes, but it was getting hard to work with. It also felt just more difficult to use than I really wanted. Ideally, I want to not really have to think so much about game saving or loading, just dealing with data. So I wanted to rethink the whole system.
 
 ## What is data?
 
