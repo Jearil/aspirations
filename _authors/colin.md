@@ -4,6 +4,7 @@ name: Colin Miller
 email: jearil@gmail.com
 twitter: Jearil
 bluesky: jearil.bsky.social
+linkedin: https://linkedin.com/in/colintmiller/
 pronouns: He/Him
 mastadon: https://fosstodon.org/@Jearil
 ---
