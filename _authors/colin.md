@@ -9,4 +9,6 @@ pronouns: He/Him
 mastadon: https://fosstodon.org/@Jearil
 ---
 
+![Colin's Picture](assets/images/colin.jpeg)
+
 Colin is a person writing words about software development. He works at Google but his views are different from Google's.
